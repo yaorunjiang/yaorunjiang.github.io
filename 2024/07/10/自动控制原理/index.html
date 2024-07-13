@@ -10,7 +10,7 @@
   
   <title>
     
-      使用Hexo与Github搭建个人博客 | 姚润江的博客
+      自动控制原理 | 姚润江的博客
     
   </title>
   <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -180,7 +180,7 @@
 </header>
 
     <div id="article-banner">
-  <h2>使用Hexo与Github搭建个人博客</h2>
+  <h2>自动控制原理</h2>
   <p class="post-date">2024-07-10</p>
   <div class="arrow-down">
     <a href="javascript:;"></a>
@@ -189,17 +189,33 @@
 <main class="app-body flex-box">
   <!-- Article START -->
   <article class="post-article">
-    <section class="markdown-content"><h1 id="Hexo本地创建博客"><a href="#Hexo本地创建博客" class="headerlink" title="Hexo本地创建博客"></a>Hexo本地创建博客</h1><ol>
-<li>Hexo是什么</li>
+    <section class="markdown-content"><h1 id="控制系统的基本概念"><a href="#控制系统的基本概念" class="headerlink" title="控制系统的基本概念"></a>控制系统的基本概念</h1><h2 id="什么是自动控制"><a href="#什么是自动控制" class="headerlink" title="什么是自动控制"></a>什么是自动控制</h2><p>以人骑自行车为例</p>
+<h2 id="自动控制理论发展简史"><a href="#自动控制理论发展简史" class="headerlink" title="自动控制理论发展简史"></a>自动控制理论发展简史</h2><ol>
+<li><p>经典控制理论：时域法；复域法（根轨迹法）；频域法</p>
+</li>
+<li><p>现代控制理论：线性系统；</p>
+</li>
+<li><p>智能控制理论：专家系统；神经网络</p>
+</li>
 </ol>
-<blockquote>
-<p>Hexo 是一个快速、简洁且高效的博客框架。 Hexo 使用 <a target="_blank" rel="noopener" href="http://daringfireball.net/projects/markdown/">Markdown</a>（或其他标记语言）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
-</blockquote>
-<ol start="2">
-<li>Hexo的安装</li>
+<h2 id="自动控制的主要研究内容"><a href="#自动控制的主要研究内容" class="headerlink" title="自动控制的主要研究内容"></a>自动控制的主要研究内容</h2><h2 id="控制系统的基本控制方式"><a href="#控制系统的基本控制方式" class="headerlink" title="控制系统的基本控制方式"></a>控制系统的基本控制方式</h2><ol>
+<li><p>开环：控制装置与受控对象之间只有顺向作用而无反(反馈)向联系。</p>
+</li>
+<li><p>反馈</p>
+</li>
+<li><p>前馈</p>
+</li>
+<li><p>复合</p>
+</li>
 </ol>
-<p>需要<code>node.js</code>和<code>git</code>。详见[Hexo文档](<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">文档 | Hexo</a>)。</p>
-<h1 id="Github创建仓库"><a href="#Github创建仓库" class="headerlink" title="Github创建仓库"></a>Github创建仓库</h1><h1 id="Hexo本地博客部署到Github"><a href="#Hexo本地博客部署到Github" class="headerlink" title="Hexo本地博客部署到Github"></a>Hexo本地博客部署到Github</h1></section>
+<h2 id="控制系统的基本组成"><a href="#控制系统的基本组成" class="headerlink" title="控制系统的基本组成"></a>控制系统的基本组成</h2><h2 id="控制系统的分类"><a href="#控制系统的分类" class="headerlink" title="控制系统的分类"></a>控制系统的分类</h2><h2 id="控制系统的基本要求"><a href="#控制系统的基本要求" class="headerlink" title="控制系统的基本要求"></a>控制系统的基本要求</h2><h1 id="控制系统的数学模型"><a href="#控制系统的数学模型" class="headerlink" title="控制系统的数学模型"></a>控制系统的数学模型</h1><h2 id="控制系统的微分方程描述"><a href="#控制系统的微分方程描述" class="headerlink" title="控制系统的微分方程描述"></a>控制系统的微分方程描述</h2><h2 id="如何求解微分方程——拉普拉斯变换"><a href="#如何求解微分方程——拉普拉斯变换" class="headerlink" title="如何求解微分方程——拉普拉斯变换"></a>如何求解微分方程——拉普拉斯变换</h2><h3 id="拉普拉斯变换的定义"><a href="#拉普拉斯变换的定义" class="headerlink" title="拉普拉斯变换的定义"></a>拉普拉斯变换的定义</h3><h3 id="常见函数的拉普拉斯变换"><a href="#常见函数的拉普拉斯变换" class="headerlink" title="常见函数的拉普拉斯变换"></a>常见函数的拉普拉斯变换</h3><h3 id="拉普拉斯变换的基本定理"><a href="#拉普拉斯变换的基本定理" class="headerlink" title="拉普拉斯变换的基本定理"></a>拉普拉斯变换的基本定理</h3><h3 id="用拉普拉斯变换求解微分方程"><a href="#用拉普拉斯变换求解微分方程" class="headerlink" title="用拉普拉斯变换求解微分方程"></a>用拉普拉斯变换求解微分方程</h3><h3 id="传递函数"><a href="#传递函数" class="headerlink" title="传递函数"></a>传递函数</h3><ol>
+<li><p>定义</p>
+</li>
+<li><p>零点极点</p>
+</li>
+<li></li>
+</ol>
+</section>
     <!-- Tags START -->
     
     <!-- Tags END -->
@@ -208,17 +224,17 @@
   <div class="nav-container">
     <!-- reverse left and right to put prev and next in a more logic postition -->
     
-      <a class="nav-left" href="/2024/07/09/hello-world/">
+      <a class="nav-left" href="/2024/07/10/%E4%BD%BF%E7%94%A8Hexo%E4%B8%8EGithub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
         <span class="nav-arrow">← </span>
         
-          Hello World
+          使用Hexo与Github搭建个人博客
         
       </a>
     
     
-      <a class="nav-right" href="/2024/07/10/%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E5%8E%9F%E7%90%86/">
+      <a class="nav-right" href="/2024/07/11/%E9%9D%A2%E8%AF%95%E9%AB%98%E9%A2%91%E9%97%AE%E9%A2%98/">
         
-          自动控制原理
+          面试高频问题
         
         <span class="nav-arrow"> →</span>
       </a>
@@ -273,7 +289,7 @@
   <div class="toc-main">
     <strong class="toc-title">Catalog</strong>
     
-      <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#Hexo%E6%9C%AC%E5%9C%B0%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2"><span class="toc-nav-text">Hexo本地创建博客</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#Github%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93"><span class="toc-nav-text">Github创建仓库</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#Hexo%E6%9C%AC%E5%9C%B0%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0Github"><span class="toc-nav-text">Hexo本地博客部署到Github</span></a></li></ol>
+      <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-nav-text">控制系统的基本概念</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6"><span class="toc-nav-text">什么是自动控制</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%90%86%E8%AE%BA%E5%8F%91%E5%B1%95%E7%AE%80%E5%8F%B2"><span class="toc-nav-text">自动控制理论发展简史</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E8%87%AA%E5%8A%A8%E6%8E%A7%E5%88%B6%E7%9A%84%E4%B8%BB%E8%A6%81%E7%A0%94%E7%A9%B6%E5%86%85%E5%AE%B9"><span class="toc-nav-text">自动控制的主要研究内容</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%8E%A7%E5%88%B6%E6%96%B9%E5%BC%8F"><span class="toc-nav-text">控制系统的基本控制方式</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%BB%84%E6%88%90"><span class="toc-nav-text">控制系统的基本组成</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%88%86%E7%B1%BB"><span class="toc-nav-text">控制系统的分类</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%A6%81%E6%B1%82"><span class="toc-nav-text">控制系统的基本要求</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%95%B0%E5%AD%A6%E6%A8%A1%E5%9E%8B"><span class="toc-nav-text">控制系统的数学模型</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%E6%8F%8F%E8%BF%B0"><span class="toc-nav-text">控制系统的微分方程描述</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E5%A6%82%E4%BD%95%E6%B1%82%E8%A7%A3%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%E2%80%94%E2%80%94%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF%E5%8F%98%E6%8D%A2"><span class="toc-nav-text">如何求解微分方程——拉普拉斯变换</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF%E5%8F%98%E6%8D%A2%E7%9A%84%E5%AE%9A%E4%B9%89"><span class="toc-nav-text">拉普拉斯变换的定义</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%B8%B8%E8%A7%81%E5%87%BD%E6%95%B0%E7%9A%84%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF%E5%8F%98%E6%8D%A2"><span class="toc-nav-text">常见函数的拉普拉斯变换</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF%E5%8F%98%E6%8D%A2%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%AE%9A%E7%90%86"><span class="toc-nav-text">拉普拉斯变换的基本定理</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E7%94%A8%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF%E5%8F%98%E6%8D%A2%E6%B1%82%E8%A7%A3%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B"><span class="toc-nav-text">用拉普拉斯变换求解微分方程</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E4%BC%A0%E9%80%92%E5%87%BD%E6%95%B0"><span class="toc-nav-text">传递函数</span></a></li></ol></li></ol></li></ol>
     
   </div>
 </aside>
@@ -283,7 +299,7 @@
 
 <script>
   (function () {
-    var url = 'https://yaorunjiang.github.io/2024/07/10/使用Hexo与Github搭建个人博客/';
+    var url = 'https://yaorunjiang.github.io/2024/07/10/自动控制原理/';
     var banner = ''
     if (banner !== '' && banner !== 'undefined' && banner !== 'null') {
       $('#article-banner').css({
